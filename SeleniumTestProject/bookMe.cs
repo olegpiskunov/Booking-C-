@@ -23,7 +23,7 @@ namespace SeleniumTestProject
             driver.Manage().Window.Maximize();
             driver.Navigate().GoToUrl(url);
             // Tell webdriver to wait
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(15);
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
         }
 
 
@@ -129,7 +129,6 @@ namespace SeleniumTestProject
 
             Thread.Sleep(4000);
             //click on See availability button
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
             Assert.IsTrue(PageObjects.GetSeeAvailability(driver).Displayed);
             PageObjects.GetSeeAvailability(driver).Click();
 
@@ -146,7 +145,6 @@ namespace SeleniumTestProject
 
 
             //go to the list
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
             Assert.IsTrue(PageObjects.GetGoList(driver).Displayed);
             PageObjects.GetGoList(driver).Click();
 

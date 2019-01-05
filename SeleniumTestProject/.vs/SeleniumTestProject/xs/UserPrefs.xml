@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{435179A1-15B9-41E7-A6CD-868ACE30DB1F}|Unit Tests">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SubLocation.cs">
+    <Files>
+      <File FileName="SubLocation.cs" Line="49" Column="30" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SeleniumTestProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
